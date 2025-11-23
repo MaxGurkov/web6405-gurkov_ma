@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакты — А. Гуркова</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Контакты</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="about.html">Обо мне</a>
+      <a href="service.html">Занятия</a>
+      <a href="contacts.html" class="active">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contacts">
+      <p>📞 Телефон: <a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+      <p>📧 Email: <a href="mailto:gurkova.educator@mail.ru">gurkova.educator@mail.ru</a></p>
+      <p>🌐 Telegram: <a href="#">@doschool_edu</a></p>
+
+      <form id="contactForm">
+        <h3>Напишите мне:</h3>
+
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="Введите имя" required>
+
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" placeholder="Введите email" required>
+
+        <label for="message">Сообщение:</label>
+        <textarea id="message" placeholder="Ваше сообщение..." required></textarea>
+
+        <label>
+          <input type="checkbox" id="consent" required>
+          Я согласен на обработку данных
+        </label>
+
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 А. Гуркова</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
