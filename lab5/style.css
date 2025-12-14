@@ -8,6 +8,23 @@
   --color-accent: #ffd36b;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.benefit {
+  background: var(--color-white);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-weight: 500;
+  animation: slideUp 1s ease;
+}
+
 /* === Сброс и базовые стили === */
 body {
   font-family: "Poppins", "Segoe UI", sans-serif;
